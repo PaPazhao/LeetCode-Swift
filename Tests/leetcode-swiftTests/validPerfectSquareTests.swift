@@ -7,9 +7,8 @@
 
 import XCTest
 import leetcode_swift
-final class validPerfectSquareTests: XCTestCase {
 
- 
+final class validPerfectSquareTests: XCTestCase {
     func testExample() throws {
         XCTAssertEqual(isPerfectSquare(1), true)
         XCTAssertEqual(isPerfectSquare(2), false)
@@ -20,9 +19,5 @@ final class validPerfectSquareTests: XCTestCase {
         XCTAssertEqual(isPerfectSquare(7), false)
         XCTAssertEqual(isPerfectSquare(8), false)
         XCTAssertEqual(isPerfectSquare(9), true)
-        
-        
     }
- 
-
 }

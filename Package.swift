@@ -7,10 +7,9 @@ let package = Package(
     name: "leetcode-swift",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "leetcode-swift",
-            targets: ["leetcode-swift"]),
+        .library(name: "leetcode-swift", targets: ["leetcode-swift"]),
     ],
+    
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
