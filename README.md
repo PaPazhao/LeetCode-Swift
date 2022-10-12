@@ -2,10 +2,11 @@
 LeetCode-Swift
 ========
 
-### LeetCode Binary Search
+### Binary Search
  
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|35|[搜索插入位置](https://leetcode.cn/problems/search-insert-position/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7) | [Swift](./Sources/leetcode-swift/binary-search/search-insert-position.swift)| Easy|
 |69|[x 的平方根](https://leetcode.cn/problems/sqrtx/) | [Swift](./Sources/leetcode-swift/binary-search/sqrtx.swift)|Easy|
 |367|[有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/) | [Swift](./Sources/leetcode-swift/binary-search/valid-perfect-square.swift)|Easy|
 
@@ -36,9 +37,7 @@ while left <= right {
 ```
 
 ### LeetCode 的题目
-[69. x 的平方根](./leetcode-swift/blob/main/leetcode-swift/Sources/leetcode-swift/sqrtx.swift)
-
-[367. 有效的完全平方数](ht/leetcode-swift/blob/main/leetcode-swift/Sources/leetcode-swift/valid-perfect-square.swift)
+ 
 
 https://www.beyond3d.com/content/articles/8/
 
