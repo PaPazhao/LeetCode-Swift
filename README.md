@@ -11,6 +11,7 @@ LeetCode-Swift
 |367|[有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/) | [Swift](./Sources/leetcode-swift/binary-search/valid-perfect-square.swift)|Easy|
 |374|[猜数字大小](https://leetcode.cn/problems/guess-number-higher-or-lower/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7)|[Swift](./Sources/leetcode-swift/binary-search/guess-number-higher-or-lower.swift)|Easy|
 |704|[二分查找](https://leetcode.cn/problems/binary-search/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7)|[Swift](./Sources/leetcode-swift/binary-search/binary-search.swift)|Easy|
+|852|[山脉数组的峰顶索引](https://leetcode.cn/problems/peak-index-in-a-mountain-array/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7)|[Swift](./Sources/leetcode-swift/binary-search/peak-index-in-a-mountain-array.swift)|Medium|
 
 ## 二分查找
 
