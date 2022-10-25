@@ -13,6 +13,13 @@ LeetCode-Swift
 |704|[二分查找](https://leetcode.cn/problems/binary-search/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7)|[Swift](./Sources/leetcode-swift/binary-search/binary-search.swift)|Easy|
 |852|[山脉数组的峰顶索引](https://leetcode.cn/problems/peak-index-in-a-mountain-array/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7)|[Swift](./Sources/leetcode-swift/binary-search/peak-index-in-a-mountain-array.swift)|Medium|
 
+## 二叉树
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|100|[相同的树](https://leetcode.cn/problems/same-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/same-tree.swift)|Easy|
+|101|[对称二叉树](https://leetcode.cn/problems/symmetric-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/symmetric-tree.swift)|Easy|
+
+
 ## 二分查找
 
 ### 二分查找具备三个条件
@@ -44,4 +51,4 @@ while left <= right {
 
 https://www.beyond3d.com/content/articles/8/
 
-
+  var
