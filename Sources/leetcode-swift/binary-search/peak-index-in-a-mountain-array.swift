@@ -7,6 +7,21 @@
 
 import Foundation
 
+public func peakIndexInMountainArray(_ arr: [Int]) -> Int {
+    var left = 1, right = arr.count - 2, ans = 0
+    while left <= right {
+        let mid = left + (right - left) / 2
+        if arr[mid] > arr[mid+1] {
+            ans = mid
+            right = mid - 1
+        } else {
+            left = mid + 1
+        }
+    }
+    
+    return ans
+}
+
 /*:
  852. 山脉数组的峰顶索引
  中等
@@ -57,17 +72,4 @@ import Foundation
 
 
 
-public func peakIndexInMountainArray(_ arr: [Int]) -> Int {
-    var left = 1, right = arr.count - 2, ans = 0
-    while left <= right {
-        let mid = left + (right - left) / 2
-        if arr[mid] > arr[mid+1] {
-            ans = mid
-            right = mid - 1
-        } else {
-            left = mid + 1
-        }
-    }
-    
-    return ans
-}
+

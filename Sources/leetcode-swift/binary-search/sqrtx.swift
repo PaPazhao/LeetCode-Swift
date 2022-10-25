@@ -7,6 +7,23 @@
 
 import Foundation
  
+public func mySqrt(_ x: Int) -> Int {
+    var left = 1, right = x
+    while left <= right {
+        let mid = left + (right - left) >> 1
+ 
+        if mid * mid == x {
+            return mid
+        } else if mid * mid > x {
+            right = mid - 1
+        } else {
+            left = mid + 1
+        }
+    }
+
+    return right
+}
+
 /*:
  69.x 的平方根
  easy
@@ -36,19 +53,4 @@ import Foundation
  作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-public func mySqrt(_ x: Int) -> Int {
-    var left = 1, right = x
-    while left <= right {
-        let mid = left + (right - left) >> 1
- 
-        if mid * mid == x {
-            return mid
-        } else if mid * mid > x {
-            right = mid - 1
-        } else {
-            left = mid + 1
-        }
-    }
 
-    return right
-}

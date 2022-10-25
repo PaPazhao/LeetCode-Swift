@@ -7,6 +7,45 @@
 
 import Foundation
 
+public class GuessGame {
+    private let targetNumber: Int
+
+    public init(targetNumber: Int) {
+        self.targetNumber = targetNumber
+    }
+    
+    
+    fileprivate func guess(_ num: Int) -> Int  {
+        if targetNumber == num {
+            return 0
+        } else if num > targetNumber {
+            return -1
+        } else {
+            return 1
+        }
+    }
+}
+
+public class Solution: GuessGame {
+    
+    public func guessNumber(_ n: Int) -> Int {
+        var left = 1, right = n
+        while left <= right {
+            let mid = left + (right - left) / 2
+            let res = guess(mid)
+            if res == 0 {
+                return mid
+            } else if res == -1 {
+                right = mid - 1
+            } else {
+                left = mid + 1
+            }
+        }
+        
+        return -1
+    }
+}
+
 /*:
  374. 猜数字大小
  简单
@@ -51,41 +90,4 @@ import Foundation
  https://leetcode.cn/problems/guess-number-higher-or-lower/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7
  */
 
-public class GuessGame {
-    private let targetNumber: Int
 
-    public init(targetNumber: Int) {
-        self.targetNumber = targetNumber
-    }
-    
-    
-    fileprivate func guess(_ num: Int) -> Int  {
-        if targetNumber == num {
-            return 0
-        } else if num > targetNumber {
-            return -1
-        } else {
-            return 1
-        }
-    }
-}
-
-public class Solution: GuessGame {
-    
-    public func guessNumber(_ n: Int) -> Int {
-        var left = 1, right = n
-        while left <= right {
-            let mid = left + (right - left) / 2
-            let res = guess(mid)
-            if res == 0 {
-                return mid
-            } else if res == -1 {
-                right = mid - 1
-            } else {
-                left = mid + 1
-            }
-        }
-        
-        return -1
-    }
-}

@@ -7,6 +7,24 @@
 
 import Foundation
 
+public func search(_ nums: [Int], _ target: Int) -> Int {
+    var left = 0, right = nums.count - 1
+    
+    while left <= right {
+        let mid = left + (right - left) / 2
+        let midValue = nums[mid]
+        if midValue == target {
+            return mid
+        } else if target > midValue {
+            left = mid + 1
+        } else {
+            right = mid - 1
+        }
+    }
+    
+    return -1
+}
+
 /*:
  704. 二分查找
  简单
@@ -36,20 +54,4 @@ import Foundation
  https://leetcode.cn/problems/binary-search/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7
  */
 
-public func search(_ nums: [Int], _ target: Int) -> Int {
-    var left = 0, right = nums.count - 1
-    
-    while left <= right {
-        let mid = left + (right - left) / 2
-        let midValue = nums[mid]
-        if midValue == target {
-            return mid
-        } else if target > midValue {
-            left = mid + 1
-        } else {
-            right = mid - 1
-        }
-    }
-    
-    return -1
-}
+
