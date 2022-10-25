@@ -18,6 +18,7 @@ LeetCode-Swift
 |---| ----- | -------- | ---------- |
 |100|[相同的树](https://leetcode.cn/problems/same-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/same-tree.swift)|Easy|
 |101|[对称二叉树](https://leetcode.cn/problems/symmetric-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/symmetric-tree.swift)|Easy|
+|104|[二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)|[Swift](./Sources/leetcode-swift/binary-tree/maximum-depth-of-binary-tree.swift)|Easy|
 |114|[二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)|[Swift](./Sources/leetcode-swift/binary-tree/flatten-binary-tree-to-linked-list.swift)|Medium|
 |116|[填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/)|[Swift](./Sources/leetcode-swift/binary-tree/populating-next-right-pointers-in-each-node.swift)|Medium|
 |226|[翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/submissions/376325480/)|[Swift](./Sources/leetcode-swift/binary-tree/invert-binary-tree.swift)|Easy|
