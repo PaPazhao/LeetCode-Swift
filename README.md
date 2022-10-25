@@ -18,8 +18,10 @@ LeetCode-Swift
 |---| ----- | -------- | ---------- |
 |100|[相同的树](https://leetcode.cn/problems/same-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/same-tree.swift)|Easy|
 |101|[对称二叉树](https://leetcode.cn/problems/symmetric-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/symmetric-tree.swift)|Easy|
+|116|[填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/)|[Swift](./Sources/leetcode-swift/binary-tree/populating-next-right-pointers-in-each-node.swift)|Medium|
+|226|[翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/submissions/376325480/)|[Swift](./Sources/leetcode-swift/binary-tree/invert-binary-tree.swift)|Easy|
 
-
+||[]()|[Swift]()||
 ## 二分查找
 
 ### 二分查找具备三个条件
@@ -51,4 +53,4 @@ while left <= right {
 
 https://www.beyond3d.com/content/articles/8/
 
-  var
+ 
