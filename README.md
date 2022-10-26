@@ -7,6 +7,7 @@ LeetCode-Swift
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |21|[合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/description/)|[Swift](./Sources/leetcode-swift/linked-list/merge-two-sorted-lists.swift)|Easy|
+|86|[分隔链表](https://leetcode.cn/problems/partition-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/partition-list.swift)|Medium|
 
 ### Binary Search
 | # | Title | Solution | Difficulty |
