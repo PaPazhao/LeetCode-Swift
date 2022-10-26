@@ -10,7 +10,7 @@ import Foundation
 func getKthFromEnd(_ head: ListNode?, _ k: Int) -> ListNode? {
     var fast = head, slow = head
     
-    for i in 0..<k {
+    for _ in 0..<k {
         fast = fast?.next
     }
 
