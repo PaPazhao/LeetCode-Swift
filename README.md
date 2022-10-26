@@ -10,6 +10,8 @@ LeetCode-Swift
 |21|[合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/description/)|[Swift](./Sources/leetcode-swift/linked-list/merge-two-sorted-lists.swift)|Easy|
 |86|[分隔链表](https://leetcode.cn/problems/partition-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/partition-list.swift)|Medium|
 |剑指 Offer 22|[链表中倒数第 k 个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/description/)|[Swift](./Sources/leetcode-swift/linked-list/KthFromEnd.swift)|Easy|
+|876|[链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/middleNode.swift)|Easy|
+
 ### Binary Search
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
