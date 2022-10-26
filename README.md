@@ -2,8 +2,13 @@
 LeetCode-Swift
 ========
 
+
+### Linked List
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|21|[合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/description/)|[Swift](./Sources/leetcode-swift/linked-list/merge-two-sorted-lists.swift)|Easy|
+
 ### Binary Search
- 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |35|[搜索插入位置](https://leetcode.cn/problems/search-insert-position/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7) | [Swift](./Sources/leetcode-swift/binary-search/search-insert-position.swift)| Easy|
@@ -26,5 +31,6 @@ LeetCode-Swift
 |226|[翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/submissions/376325480/)|[Swift](./Sources/leetcode-swift/binary-tree/invert-binary-tree.swift)|Easy|
 |543|[二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/diameter-of-binary-tree.swift)|Easy|
 |654|[最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)|[Swift](./Sources/leetcode-swift/binary-tree/maximum-binary-tree.swift)|Medium|
+
 
 ||[]()|[Swift]()||

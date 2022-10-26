@@ -23,7 +23,7 @@ func build(_ nums: [Int], lo: Int, hi: Int) -> TreeNode? {
             index = i
         }
     }
-    var root = TreeNode(maxVal)
+    let root = TreeNode(maxVal)
     root.left = build(nums, lo: lo, hi: index - 1)
     root.right = build(nums, lo: index + 1, hi: hi)
     return root
