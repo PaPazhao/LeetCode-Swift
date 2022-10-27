@@ -10,6 +10,7 @@ LeetCode-Swift
 |21|[合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/description/)|[Swift](./Sources/leetcode-swift/linked-list/merge-two-sorted-lists.swift)|Easy|
 |83|[删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/deleteDuplicates.swift)|Easy|
 |86|[分隔链表](https://leetcode.cn/problems/partition-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/partition-list.swift)|Medium|
+|92|[反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)|[Swift](./Sources/leetcode-swift/linked-list/reverseBetween.swift)|Medium|
 |141|[环形链表](https://leetcode.cn/problems/linked-list-cycle/description/?languageTags=swift)|[Swift](./Sources/leetcode-swift/linked-list/hasCycle.swift)|Easy|
 |142|[环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/)|[Swift](./Sources/leetcode-swift/linked-list/detectCycle.swift)|Medium|
 |206|[反转链表](https://leetcode.cn/problems/reverse-linked-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/reverseList.swift)|Easy|
