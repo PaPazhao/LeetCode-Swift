@@ -43,5 +43,10 @@ LeetCode-Swift
 |---| ----- | -------- | ---------- |
 |146|[LRU 缓存](https://leetcode.cn/problems/lru-cache/)|[Swift](./Sources/leetcode-swift/design/LRUCache.swift)|Medium|
 
+## 数组
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+| 26|[删除有序数组中的重复项](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)|[Swift](./Sources/leetcode-swift/array/removeDuplicates.swift)|Easy|
+
 
 ||[]()|[Swift]()|Medium|
