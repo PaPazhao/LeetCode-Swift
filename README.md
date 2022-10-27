@@ -12,6 +12,7 @@ LeetCode-Swift
 |86|[分隔链表](https://leetcode.cn/problems/partition-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/partition-list.swift)|Medium|
 |141|[环形链表](https://leetcode.cn/problems/linked-list-cycle/description/?languageTags=swift)|[Swift](./Sources/leetcode-swift/linked-list/hasCycle.swift)|Easy|
 |142|[环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/description/)|[Swift](./Sources/leetcode-swift/linked-list/detectCycle.swift)|Medium|
+|206|[反转链表](https://leetcode.cn/problems/reverse-linked-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/reverseList.swift)|Easy|
 |剑指 Offer 22|[链表中倒数第 k 个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/description/)|[Swift](./Sources/leetcode-swift/linked-list/KthFromEnd.swift)|Easy|
 |876|[链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/description/)|[Swift](./Sources/leetcode-swift/linked-list/middleNode.swift)|Easy|
 
