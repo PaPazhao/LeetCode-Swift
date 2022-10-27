@@ -38,7 +38,10 @@ LeetCode-Swift
 |543|[二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/description/)|[Swift](./Sources/leetcode-swift/binary-tree/diameter-of-binary-tree.swift)|Easy|
 |654|[最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)|[Swift](./Sources/leetcode-swift/binary-tree/maximum-binary-tree.swift)|Medium|
 
-
+## 设计
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|146|[LRU 缓存](https://leetcode.cn/problems/lru-cache/)|[Swift](./Sources/leetcode-swift/design/LRUCache.swift)|Medium|
 
 
 ||[]()|[Swift]()|Medium|
