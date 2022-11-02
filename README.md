@@ -20,6 +20,7 @@ LeetCode-Swift
 ### Binary Search
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Swift](./Sources/leetcode-swift/binary-search/searchRange.swift)
 |35|[搜索插入位置](https://leetcode.cn/problems/search-insert-position/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7) | [Swift](./Sources/leetcode-swift/binary-search/search-insert-position.swift)| Easy|
 |69|[x 的平方根](https://leetcode.cn/problems/sqrtx/) | [Swift](./Sources/leetcode-swift/binary-search/sqrtx.swift)|Easy|
 |367|[有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/) | [Swift](./Sources/leetcode-swift/binary-search/valid-perfect-square.swift)|Easy|
