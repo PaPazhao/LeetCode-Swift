@@ -20,7 +20,7 @@ LeetCode-Swift
 ### Binary Search
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Swift](./Sources/leetcode-swift/binary-search/searchRange.swift)
+|34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Swift](./Sources/leetcode-swift/binary-search/searchRange.swift)|Medium|
 |35|[搜索插入位置](https://leetcode.cn/problems/search-insert-position/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7) | [Swift](./Sources/leetcode-swift/binary-search/search-insert-position.swift)| Easy|
 |69|[x 的平方根](https://leetcode.cn/problems/sqrtx/) | [Swift](./Sources/leetcode-swift/binary-search/sqrtx.swift)|Easy|
 |367|[有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/) | [Swift](./Sources/leetcode-swift/binary-search/valid-perfect-square.swift)|Easy|
@@ -28,6 +28,7 @@ LeetCode-Swift
 |704|[二分查找](https://leetcode.cn/problems/binary-search/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7)|[Swift](./Sources/leetcode-swift/binary-search/binary-search.swift)|Easy|
 |852|[山脉数组的峰顶索引](https://leetcode.cn/problems/peak-index-in-a-mountain-array/?envType=study-plan&id=binary-search-beginner&plan=binary-search&plan_progress=45veja7)|[Swift](./Sources/leetcode-swift/binary-search/peak-index-in-a-mountain-array.swift)|Medium|
 
+|剑指 Offer 53 - I.|[在排序数组中查找数字 I](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/description/)|[Swift](./Sources/leetcode-swift/binary-search/search_num_count.swift)|Medium|
 ## 二叉树
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
